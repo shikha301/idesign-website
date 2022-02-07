@@ -1,0 +1,70 @@
+.city-filter span,
+.selected span {
+  border: 1px solid #c2c2c2;
+  box-sizing: border-box;
+  border-radius: 4.04165px;
+  padding: 6px 31px;
+  font-size: 12px;
+}
+
+.selected span {
+  background: #2cbf8130;
+}
+
+.selected button {
+  font-size: 6px;
+  color: white;
+  background: #2cbf81;
+  padding: 1%;
+  border-radius: 12px;
+}
+
+.shadow{
+    background: rgba(196, 196, 196, 0.07);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.shadow img{
+    width: 100%;
+}
+
+.star{
+    background: #E7E7E74A;
+    padding: 1px 20px;
+    color: #E4D441;
+}
+
+.costage span{
+    padding: 8px 29px;
+    background: #EBECFF;
+    border-radius: 5px;
+    color: #3B5998;
+}
+
+.information span {
+    background: #F2F2F2;
+    border-radius: 6px;
+    padding: 6px 19px;
+}
+
+.information i {
+    margin-right: 15px;
+}
+
+.information li {
+    margin: 30px 0px;
+}
+
+.nsure{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 50px 22px;
+}
+
+
+.popover {
+    max-width: none;
+  }

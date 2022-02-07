@@ -1,0 +1,854 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- META DATA -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--style.css-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- slick.js -->
+    <link rel="stylesheet" href="assets/js/slick.js">
+
+    <!-- slick css -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!-- testimonal -->
+    <link rel="stylesheet" href="assets/css/testimonl.css">
+
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+</head>
+
+<body>
+    <!--header start-->
+    <nav class="py-2 bg-light border-bottom">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="#">
+                        <img src="assets/images/logo/idesignlogo.png" alt="logo" />
+                    </a></li>
+                <li class="nav-item"><a href="ind.html" class="nav-link link-dark px-2 active" aria-current="page">Find
+                        Professionals</a>
+                </li>
+                <li class="nav-item"><a href="explore-project.html" class="nav-link link-dark px-2">Explore Projects</a>
+                </li>
+                <li class="nav-item"><a href="brand-offer.html" class="nav-link link-dark px-2">Brand Offers</a></li>
+                <li class="nav-item"><a href="magazine.html" class="nav-link link-dark px-2">Magazines</a></li>
+            </ul>
+            <ul class="nav">
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle" />
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!--/.header-->
+    <!--header end-->
+
+    <section class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <div class="idesign-exclusive">iDesign Exclusive</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- renovate your home section -->
+
+    <section class="renov">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 renovate">
+                <div class="row justify-content-center">
+                    <div class="col-9 home-renovate">
+                        <h2>Looking to renovate your home?</h2>
+                        <p class="mt-3">Find reliable design professionals near you. Compare design fees & browse
+                            projects</p>
+                        <!-- <img src="assets/images/home/fdesigner.png" alt="" class="mt-5 fs-4" /> -->
+                        <!-- Button trigger modal -->
+
+                        <a class="pe-auto"><img src="assets/images/home/gstarted.png" alt="" class="mt-5 fs-4" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop" /></a>
+
+                        <!-- Modal 1 -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content p-2">
+                                    <div class="modal-header border-light">
+                                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                        <p class="" data-bs-dismiss="modal" aria-label="Close">skip</p>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3><b>Find Designers</b></h3>
+                                        <div class="row">
+                                            <div class="col-sm-12 mb-3 mt-3">
+                                                <input type="text" class="form-control form-control-lg"
+                                                    id="colFormLabelLg" placeholder="Name">
+                                            </div>
+                                            <div class="col-sm-12 mb-3">
+                                                <input type="email" class="form-control form-control-lg"
+                                                    id="colFormLabelLg" placeholder="Email">
+                                            </div>
+                                            <div class="input-group input-group-lg mb-3">
+                                                <span class="input-group-text" id="inputGroup-sizing-lg">+91</span>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-lg">
+                                            </div>
+                                            <div class="col-sm-12 mb-3">
+                                                <input type="text" class="form-control form-control-lg"
+                                                    id="colFormLabelLg" placeholder="City">
+                                            </div>
+                                        </div>
+                                        <p class="fs-3">I want to connect with</p>
+                                        <button type="button"
+                                            class="btn btn-light border pl-2 designer-btn">Designer</button>
+                                        <button type="button"
+                                            class="btn btn-light border pl-2 contractor-btn ms-4">Contractor</button>
+
+                                        <div class="form-check mt-3">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                I want iDesign to recommend designers
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="text-center border-light">
+                                        <div class="d-grid gap-2 col-4 mx-auto">
+                                            <button class="btn text-light submit-btn" type="button"
+                                                data-bs-toggle="modal" data-bs-target="#fdsubmit"
+                                                data-bs-dismiss="modal">Submit &
+                                                Next</button>
+                                            
+                                        </div>
+                                        <p class="text-center p-3">By clicking Next you agree to the <a href="#"><u>Terms & Conditions</u></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal 2 -->
+                        <div class="modal fade" id="fdsubmit" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0">
+                                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                        <p class="" data-bs-dismiss="modal" aria-label="Close">skip</p>
+                                    </div>
+                                    <div class="modal-body p-4">
+
+                                        <h4 class="mb-3">A bit more about your dream home</h4>
+                                        <h5 class="mb-3">Property Type </h5>
+
+                                        <div>
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="pills-home-tab"
+                                                        data-bs-toggle="pill" data-bs-target="#apartment" type="button"
+                                                        role="tab" aria-controls="pills-home"
+                                                        aria-selected="true">Apartment</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="pills-profile-tab"
+                                                        data-bs-toggle="pill" data-bs-target="#banglow" type="button"
+                                                        role="tab" aria-controls="pills-profile"
+                                                        aria-selected="false">Bungalow</button>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="apartment" role="tabpanel"
+                                                    aria-labelledby="pills-home-tab">
+
+                                                    <div class="budget-form">
+                                                        <div class="mt-3">
+                                                            <h5><b>Budget </b></h5>
+                                                        </div>
+                                                        <div class="row mt-3">
+                                                            <div class="col">
+                                                                <input type="text" class="form-control form-control-lg"
+                                                                    placeholder="min" aria-label="min">
+                                                            </div>
+                                                            <div class="col">
+                                                                <input type="text" class="form-control form-control-lg"
+                                                                    placeholder="max" aria-label="max">
+                                                            </div>
+                                                        </div>
+                                                        <p>Enter value in Lacs</p>
+                                                    </div>
+
+                                                    <div class="apartment-form">
+                                                        <div class="mt-3">
+                                                            <h5><b>Property size </b></h5>
+                                                        </div>
+                                                        <div class="col mt-3">
+                                                            <input type="text" class="form-control form-control-lg"
+                                                                placeholder="Enter Area" aria-label="Enter Area">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="login-button mt-4">
+                                                        <div class="d-grid gap-2">
+                                                            <button class="btn btn-light shadow p-3 bg-body rounded"
+                                                                type="button">Login with Google</button>
+                                                            <button class="btn btn-light shadow p-3 bg-body rounded"
+                                                                type="button">Login with Facebook</button>
+                                                        </div>
+                                                        <p class="text-center p-4 text-muted">
+                                                            OR
+                                                        </p>
+                                                        <div class="d-grid gap-2">
+                                                            <button
+                                                                class="btn btn-light shadow p-3 bg-body rounded green-recon"
+                                                                type="button">abcdef@gmail.com </button>
+                                                            <button class="btn btn-light shadow p-3 bg-body rounded"
+                                                                type="button">Create Password</button>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="tab-pane fade" id="banglow" role="tabpanel"
+                                                    aria-labelledby="pills-profile-tab">...</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div class="container">
+						<p>Looking to renovate your home?</p>
+					</div> -->
+            </div>
+            <div class="col-md-4 col-sm-12 design-professional">
+                <div class="row justify-content-center">
+                    <div class="col-9 desiprof text-light">
+                        <h3 class="text-light">Are you a
+                            Design Professional ?</h3>
+                        <p class="mt-3 mb-3">Join iDesign Pro to get access to Business Tools, CRM and much more.</p>
+                        <a href="#" class="text-light">Learn more > </a>
+                        <div class="input-group mb-3 mt-3">
+                            <input type="email" class="form-control" placeholder="Email"
+                                aria-label="Email" aria-describedby="basic-addon2">
+                            <span class="input-group-text green text-light" id="basic-addon2">&#x22D9;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+
+    <section class="works mt-5">
+        <div class="container">
+            <h2 class="text-center">
+                How it works?
+            </h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <img src="assets/images/home/browsedesign.png" alt="" />
+                    <div class="">
+                        <h5>Browse Design Projects</h5>
+                        <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <img src="assets/images/home/findinterior.png" alt="" />
+                    <div class="">
+                        <h5>Find Interior Designers</h5>
+                        <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <img src="assets/images/home/getstarted.png" alt="" />
+                    <div class="">
+                        <h5>Get Started with Interiors</h5>
+                        <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How important home -->
+
+    <section class="imphome mt-5">
+        <div class="container pt-5 text-center">
+            <h2 class="">
+                We understand how important a Home is, <br>
+                so we go beyond the obvious.
+            </h2>
+            <p class="p-4">iDesign gets you exclusive benefits, giving you more control and helping you better manage your interior
+            </p>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-9 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 align-self-center">
+                            <img src="assets/images/home/hidden.png" alt="" class="w-100" />
+                            
+                        </div>
+                        <div class="col-md-4 col-sm-12 align-self-center">
+                            <img src="assets/images/home/vetted.png" alt="" class="w-100" />
+                            
+                        </div>
+                        <div class="col-md-4 col-sm-12 align-self-center">
+                            <img src="assets/images/home/personalized.png" alt="" class="w-100" />
+                            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="">
+                                <h5>Nothing is <b>Hidden</b></h5>
+                                <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="">
+                                <h5><b>Vetted</b> Designers</h5>
+                                <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="">
+                                <h5><b>Personalized</b> Support</h5>
+                                <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="idesignexclusive.html"><button type="button" class="btn green text-light mt-4 mb-4">Learn
+                            more</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- find professional -->
+
+    <section class="professional mt-5">
+        <div class="container text-center">
+            <h2 class="">Find professionals</h2>
+            <h6 class="mt-3 mb-3 text-muted">
+                Contact thousands of experts from one single directory
+            </h6>
+            <img src="assets/images/home/cities.png" alt="">
+            <p>Use my location <img src="assets/images/home/location_searching.png" alt="" /> </p>
+            <div class="slider-box">
+                <div class="rev_slider">
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/sodi.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="rev_slide">
+                        <div class="">
+                            <img src="assets/images/home/shruti.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Project -->
+
+    <section class="exproject mt-5">
+        <div class="container">
+            <h2 class="text-center">Explore Projects</h2>
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12">
+                    <a href="explore-project.html">
+                        <img src="assets/images/explore-project/curtain.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="explore-project.html">
+                        <img src="assets/images/explore-project/big-brown.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="explore-project.html">
+                        <img src="assets/images/explore-project/curtain.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="explore-project.html">
+                        <img src="assets/images/explore-project/big-brown.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="explore-project.html">
+                        <img src="assets/images/explore-project/pea-green.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12 blue">
+                    <a href="explore-project.html">
+                        <p class="text-light pt-5 p-3 fs-3">13 Cities, <br />
+                            30,000+ Professionals, <br />
+                            100,000+ Projects. </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- magazine -->
+
+    <section class="magazine mt-5">
+        <div class="container text-center">
+            <h2>Magazine</h2>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-4">
+                    <div class="box1">
+                        <div class="w2-card-2">
+                            <img src="assets/images/home/kitchen.png">
+                            <div class="w2-container text-light blue p-3">
+                                <p>iDesign Top 20</p>
+                                <h5><i>How to renovate your kitchen</i> </h5>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="box2 text-light mt-2">
+                            <a href="magazine.html">
+                            <h4 class="text-light"><i> Explore Magazine</i></h4>
+                        </a>
+                        </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="row box3">
+                        <div class="col-md-6 col-sm-5">
+                            <img src="assets/images/home/kitchen.png" alt="" />
+                            <div class="w3-container text-light p-2">
+                                <p>iDesign Top 20</p>
+                                <p><i>How to renovate your kitchen</i> </p>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-5">
+                            <img src="assets/images/home/kitchen.png" alt="" />
+                            <div class="w3-container text-light p-2">
+                                <p>iDesign Top 20</p>
+                                <p><i>How to renovate your kitchen</i> </p>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1 mt-2">
+                        <div class="w2-card-2">
+                            <img src="assets/images/home/kitchen.png">
+                            <div class="w2-container text-light blue p-3">
+                                <p>iDesign Top 20</p>
+                                <h5><i>How to renovate your kitchen</i> </h5>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonal mt-5">
+        <div class="container mt-5">
+            <h2 class="text-center">Testimonials</h2>
+            <section id="testim" class="testim">
+                <div class="testim-cover">
+                    <div class="wrap">
+                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                        <ul id="testim-dots" class="dots">
+                            <li class="dot active"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                        </ul>
+                        <div id="testim-content" class="cont">
+
+                            <div class="active">
+                                <p>“iDesign has had a huge impact on my business. The fact that the marketing and the
+                                    business tools are all in one place is really great. Now it's saving me time and
+                                    everything is in the same place.”</p>
+                                <h2><b>Vivek Verma</b> Interior Designer</h2>
+                                <div class="img">
+                                    <img src="assets/images/home/testimonal.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <p>“iDesign has had a huge impact on my business. The fact that the marketing and the
+                                    business tools are all in one place is really great. Now it's saving me time and
+                                    everything is in the same place.”</p>
+                                <h2><b>Vivek Verma</b> Interior Designer</h2>
+                                <div class="img">
+                                    <img src="assets/images/home/testimonal.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <p>“iDesign has had a huge impact on my business. The fact that the marketing and the
+                                    business tools are all in one place is really great. Now it's saving me time and
+                                    everything is in the same place.”</p>
+                                <h2><b>Vivek Verma</b> Interior Designer</h2>
+                                <div class="img">
+                                    <img src="assets/images/home/testimonal.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <p>“iDesign has had a huge impact on my business. The fact that the marketing and the
+                                    business tools are all in one place is really great. Now it's saving me time and
+                                    everything is in the same place.”</p>
+                                <h2><b>Vivek Verma</b> Interior Designer</h2>
+                                <div class="img">
+                                    <img src="assets/images/home/testimonal.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <p>“iDesign has had a huge impact on my business. The fact that the marketing and the
+                                    business tools are all in one place is really great. Now it's saving me time and
+                                    everything is in the same place.”</p>
+                                <h2><b>Vivek Verma</b> Interior Designer</h2>
+                                <div class="img">
+                                    <img src="assets/images/home/testimonal.png" alt="" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- got question -->
+
+    <section class="question blue">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-4 py-4 py-md-5 aside-stretch d-flex align-items-center text-light fs-3">
+                    Got any questions ?
+                </div>
+                <div class="col-md-4 py-4 py-md-5 d-flex align-items-center pl-md-5 aside-stretch-right float-right">
+                    <button type="button" class="btn btn-light">Request a Call back</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-06">
+        <div class="container">
+
+            <div class="row pt-4">
+                <div class="col col-xs-12">
+                    <p><b>iDesign </b> </p>
+                    <p class="rev-width">We are revolutioning the Interior design
+                        industry.</p>
+                    <ul class="ftco-footer-social p-0">
+                        <span class="ion-logo-twitter"><img src="assets/images/home/facebook.png" alt="" /></span>
+                        <span class="ion-logo-facebook"><img src="assets/images/home/Instagram.png" alt="" /></span>
+                        <span class="ion-logo-instagram"><img src="assets/images/home/Youtube.png" alt="" /></span>
+                        <span class="ion-logo-linkedin"><img src="assets/images/home/WhatsApp.png" alt="" /></span>
+                    </ul>
+                    <p class="pt-4"><u> Corporate Social Responsibility </u></p>
+                </div>
+                <div class="col col-xs-12">
+                    <p><b>Company</b></p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-1 d-block">About</a></li>
+                        <li><a href="#" class="py-1 d-block">Carrers</a></li>
+                        <li><a href="#" class="py-1 d-block">Privacy and Notice</a></li>
+                        <li><a href="#" class="py-1 d-block">Terms</a></li>
+                        <li><a href="#" class="py-1 d-block">Cookie policy</a></li>
+                        <li><a href="#" class="py-1 d-block">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col col-xs-12">
+                    <p><b> Homeowners</b></p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-1 d-block">Design Professionals</a></li>
+                        <li><a href="#" class="py-1 d-block">Browse Projects</a></li>
+                        <li><a href="#" class="py-1 d-block">Review Professionals</a></li>
+                        <li><a href="#" class="py-1 d-block">iDesign Support</a></li>
+                        <li><a href="#" class="py-1 d-block">Sign In</a></li>
+                    </ul>
+                </div>
+                <div class="col col-xs-12">
+                    <p><b>Design Professionals</b></p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-1 d-block">Join iDesign Pro</a></li>
+                        <li><a href="#" class="py-1 d-block">Pricing</a></li>
+                        <li><a href="#" class="py-1 d-block">Terms and Conditions</a></li>
+                        <li><a href="#" class="py-1 d-block">Sign In</a></li>
+                    </ul>
+                </div>
+                <div class="col col-xs-12">
+                    <p class="pt-4">Sign Up to our newsletter</p>
+                    <input type="email" class="form-control form-control-lg mt-2" placeholder="Email"
+                        aria-label="email">
+                    <button type="button" class="btn btn-sm green me-2 float-end mt-2 text-light">Submit</button>
+                </div>
+            </div>
+            <div class="row mt-5 pt-4">
+                <div class="col-md-6 col-lg-12">
+                    <p class="copyright text-center">
+                        2021 iDesign. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- slick js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        var rev = $('.rev_slider');
+        rev.on('init', function (event, slick, currentSlide) {
+            var
+                cur = $(slick.$slides[slick.currentSlide]),
+                next = cur.next(),
+                prev = cur.prev();
+            prev.addClass('slick-sprev');
+            next.addClass('slick-snext');
+            cur.removeClass('slick-snext').removeClass('slick-sprev');
+            slick.$prev = prev;
+            slick.$next = next;
+        }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+            //console.log('beforeChange');
+            var
+                cur = $(slick.$slides[nextSlide]);
+            //console.log(slick.$prev, slick.$next);
+            slick.$prev.removeClass('slick-sprev');
+            slick.$next.removeClass('slick-snext');
+            next = cur.next(),
+                prev = cur.prev();
+            prev.prev();
+            prev.next();
+            prev.addClass('slick-sprev');
+            next.addClass('slick-snext');
+            slick.$prev = prev;
+            slick.$next = next;
+            cur.removeClass('slick-next').removeClass('slick-sprev');
+        });
+
+        rev.slick({
+            speed: 1000,
+            arrows: false,
+            dots: true,
+            focusOnSelect: true,
+            prevArrow: '<button> < </button>',
+            nextArrow: '<button> ></button>',
+            infinite: true,
+            centerMode: true,
+            slidesPerRow: 1,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerPadding: '0',
+            swipe: true,
+            customPaging: function (slider, i) {
+                return '';
+            },
+            /*infinite: false,*/
+        });
+    </script>
+
+    <script>
+        // vars
+        'use strict'
+        var testim = document.getElementById("testim"),
+            testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+            testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+            testimLeftArrow = document.getElementById("left-arrow"),
+            testimRightArrow = document.getElementById("right-arrow"),
+            testimSpeed = 4500,
+            currentSlide = 0,
+            currentActive = 0,
+            testimTimer,
+            touchStartPos,
+            touchEndPos,
+            touchPosDiff,
+            ignoreTouch = 30;
+        ;
+
+        window.onload = function () {
+
+            // Testim Script
+            function playSlide(slide) {
+                for (var k = 0; k < testimDots.length; k++) {
+                    testimContent[k].classList.remove("active");
+                    testimContent[k].classList.remove("inactive");
+                    testimDots[k].classList.remove("active");
+                }
+
+                if (slide < 0) {
+                    slide = currentSlide = testimContent.length - 1;
+                }
+
+                if (slide > testimContent.length - 1) {
+                    slide = currentSlide = 0;
+                }
+
+                if (currentActive != currentSlide) {
+                    testimContent[currentActive].classList.add("inactive");
+                }
+                testimContent[slide].classList.add("active");
+                testimDots[slide].classList.add("active");
+
+                currentActive = currentSlide;
+
+                clearTimeout(testimTimer);
+                testimTimer = setTimeout(function () {
+                    playSlide(currentSlide += 1);
+                }, testimSpeed)
+            }
+
+            testimLeftArrow.addEventListener("click", function () {
+                playSlide(currentSlide -= 1);
+            })
+
+            testimRightArrow.addEventListener("click", function () {
+                playSlide(currentSlide += 1);
+            })
+
+            for (var l = 0; l < testimDots.length; l++) {
+                testimDots[l].addEventListener("click", function () {
+                    playSlide(currentSlide = testimDots.indexOf(this));
+                })
+            }
+
+            playSlide(currentSlide);
+
+            // keyboard shortcuts
+            document.addEventListener("keyup", function (e) {
+                switch (e.keyCode) {
+                    case 37:
+                        testimLeftArrow.click();
+                        break;
+
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    default:
+                        break;
+                }
+            })
+
+            testim.addEventListener("touchstart", function (e) {
+                touchStartPos = e.changedTouches[0].clientX;
+            })
+
+            testim.addEventListener("touchend", function (e) {
+                touchEndPos = e.changedTouches[0].clientX;
+
+                touchPosDiff = touchStartPos - touchEndPos;
+
+                console.log(touchPosDiff);
+                console.log(touchStartPos);
+                console.log(touchEndPos);
+
+
+                if (touchPosDiff > 0 + ignoreTouch) {
+                    testimLeftArrow.click();
+                } else if (touchPosDiff < 0 - ignoreTouch) {
+                    testimRightArrow.click();
+                } else {
+                    return;
+                }
+
+            })
+        }
+    </script>
+
+
+</body>
+
+</html>

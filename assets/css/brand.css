@@ -1,0 +1,32 @@
+.cities-deal span {
+    display: inline-block;
+    border: solid 1px #efefef;
+    margin-right: 20px;
+    text-align: center;
+    padding: 12px;
+}
+
+.cities-deal img{
+    width: 50%;
+}
+
+.big-deal img{
+    width: 100%;
+}
+
+.deals-des span{
+    display: inline-table;
+}
+
+.span-dis h5{
+    color:#2CBF81;
+}
+
+.star i{
+    color: #E4D441;
+}
+
+.full-deal{
+    background: #EBECFF;
+    color: #6169FF;
+}

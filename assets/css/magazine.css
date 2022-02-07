@@ -1,0 +1,46 @@
+.flair {
+  background: #fdfdfd;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 0px 0px 5px 5px;
+  padding: 20px;
+}
+
+.card-des img {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.card-des p {
+  height: 3vw;
+  text-align: center;
+}
+
+.deal-fade {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-deal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 15vw;
+    background: rgba(255, 255, 255, 0.49);
+    backdrop-filter: blur(5px);
+}
+
+.rreview .checked{
+    color: #E4D441;
+    font-size: 5vw;
+}
+
+.unchecked{
+    color: #DADADA;
+    font-size: 5vw;
+}

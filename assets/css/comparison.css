@@ -1,0 +1,70 @@
+.qcomparison{
+    background-image: url("/Users/shikhatomar/Downloads/Shikha/Idesign Final/idhtml/assets/images/comp/bg.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.man{
+    background-image: url("/Users/shikhatomar/Downloads/Shikha/Idesign Final/idhtml/assets/images/comp/man.png");
+    background-size: inherit;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+.benefits .form-check-input {
+    background-color: #2CBF81;
+    border-color: #2CBF81;
+}
+.benefits-bg{
+    background: rgba(59, 89, 152, 0.27);
+}
+.ibox{
+    width: 100%;
+    height: 90%;
+}
+
+.drag-area{
+    border: 2px dashed grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #8B8A8A;
+  }
+  .drag-area.active{
+    border: 2px solid #8B8A8A;
+  }
+  .drag-area .icon{
+    font-size: 100px;
+    color: #8B8A8A;
+  }
+  .drag-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #8B8A8A;
+  }
+  .drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #8B8A8A;
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #8B8A8A;
+    color: #5256ad;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }

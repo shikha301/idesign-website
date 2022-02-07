@@ -1,0 +1,470 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- META DATA -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--style.css-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/explore.css">
+    <link rel="stylesheet" href="assets/css/designer-profile.css">
+
+</head>
+
+<body>
+
+    <!-- modal of all rooms available -->
+
+
+    <div id="myModal" class="pnproject modal">
+        
+        <div class="modal-content">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="prev-next-project">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-6 col-md-6 mb-80">
+                                <div class="d-flex">
+                                    <div class="arrow">
+                                        <a href="" class="fs-1 green-recon border-0 ">❮</a>
+                                    </div>
+                                    <div>
+
+                                        <h4 class="mb-0 green-recon border-0">Previous Project</h4>
+                                        <p class="mb-0 border-0 float-end">Steward’s</p>
+                                    </div>
+                                    <div class="mr-lg-5 ms-3">
+                                        <img src="assets/images/designer-profile/pproject.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mb-80">
+                                <div class="d-flex float-end">
+                                    <div class="mr-lg-5 me-3">
+                                        <img src="assets/images/designer-profile/pproject.png" alt="">
+                                    </div>
+                                    <div class="mr-3">
+                                        <h4 class="mb-0 green-recon border-0">Next Project</h4>
+                                        <p class="mb-0 border-0 float-start">Brooklyn Heights</p>
+                                    </div>
+                                    <div class="arrow">
+                                        <a href="" class="fs-1 green-recon border-0">❯</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-lg-4">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="mySlides" style="display: block;">
+                        <img src="assets/images/designer-profile/blue-sofa.png" class="w-75">
+                    </div>
+
+                    <div class="mySlides" style="display: none;">
+                        <img src="assets/images/designer-profile/brown-sofa.jpg" class="w-75">
+                    </div>
+
+                    <div class="mySlides" style="display: none;">
+                        <img src="assets/images/designer-profile/blue-sofa.png" class="w-75">
+                    </div>
+
+                    <div class="mySlides" style="display: none;">
+                        <img src="assets/images/designer-profile/brown-sofa.jpg" class="w-75">
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a><a class="next" onclick="plusSlides(1)">❯</a>
+                <div class="col-lg-4 col-sm-12">
+                    <h5>Modern Living Room <i class="fa fa-heart-o"></i></h5>
+                    <p>Building Name</p>
+
+                    <div class="row justify-content-between mt-5">
+                        <div class="col">
+                            <div class=" mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-2 align-self-center">
+                                        <img src="assets/images/designer-profile/aliciascott.png" alt="">
+                                    </div>
+                                    <div class="col-md-8 ms-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Alicia Scott</h5>
+                                            <p class="card-text">
+                                                Interior Designer
+                                            </p>
+                                            <p>devon_lane@gmail.com</p>
+
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        <span class="star-icon"><i class="fa fa-star"></i>4.3</span>
+                                        <span>Experience<b> 3 Years </b></span>
+                                    </p>
+                                    <p class="liked-ins float-start mt-4">Design fee : ₹5000/room</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icon">
+                        <span><i class="fa fa-heart-o"></i></span>
+                        <span><i class="fa fa-whatsapp"></i></span>
+                        <span><i class="fa fa-phone"></i></span>
+                        <span class="text-light green chat-secure"><i class="fa fa-envelope-o me-3"></i>Start
+                            Chat</span>
+                    </div>
+                    <div class="rooms mt-lg-5 text-light">
+                        <div class="two-rooms mb-4">
+                            <span class="green">Living Room</span>
+                            <span class="blue">Drawing Room</span>
+                        </div>
+                        <span class="maroon">Drawing Room
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--header start-->
+    <nav class="py-2 bg-light border-bottom">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="#">
+                        <img src="assets/images/logo/idesignlogo.png" alt="logo" />
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Find
+                        Professionals</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Explore Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Brand Offers</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Magazines</a></li>
+            </ul>
+            <ul class="nav">
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle" />
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!--/.header-->
+    <!--header end-->
+
+    <section class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <div class="idesign-exclusive">iDesign Exclusive</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mt-lg-5 linking">
+        <div class="container">
+            <p>
+                <span>Home </span> >
+                <span>Signup</span> >
+                <span>Liked Inspirations</span>
+            </p>
+        </div>
+    </section>
+
+    <section class="modern-living mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 green-border row-room">
+                    <img src="assets/images/designer-profile/blue-sofa.png" alt="" class="w-100 rounded">
+                    <div class="text-block green">
+                        <h4>Living Room</h4>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h5>Modern Living Room <i class="fa fa-heart-o"></i></h5>
+                    <p>Building Name</p>
+
+                    <div class="row justify-content-between mt-5">
+                        <div class="col">
+                            <div class=" mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-2 align-self-center">
+                                        <img src="assets/images/designer-profile/aliciascott.png" alt="">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Alicia Scott</h5>
+                                            <p class="card-text">
+                                                Interior Designer
+                                            </p>
+                                            <p>devon_lane@gmail.com</p>
+
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        <span class="star-icon"><i class="fa fa-star"></i>4.3</span>
+                                        <span>Experience<b> 3 Years </b></span>
+                                    </p>
+                                    <p class="liked-ins float-start mt-4">Design fee : ₹5000/room</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icon">
+                        <span><i class="fa fa-heart-o"></i></span>
+                        <span><i class="fa fa-whatsapp"></i></span>
+                        <span><i class="fa fa-phone"></i></span>
+                        <span class="text-light green chat-secure"><i class="fa fa-envelope-o me-3"></i>Start
+                            Chat</span>
+                    </div>
+                    <div class="rooms mt-lg-5 text-light">
+                        <div class="two-rooms mb-4">
+                            <span class="green">Living Room</span>
+                            <span class="blue">Drawing Room</span>
+                        </div>
+                        <span class="maroon">Drawing Room
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="All-moderate-room mt-5">
+        <div class="container">
+            <div class="row row-modal">
+                <div class="col-lg-4 col-md-6 row-room maroon-border">
+                    <img src="assets/images/designer-profile/blue-sofa.png" alt="Nature" class="w-100 rounded">
+                    <div class="text-block maroon">
+                        <h4>Drawing Room</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 row-room sky-border">
+                    <img src="assets/images/designer-profile/blue-sofa.png" alt="Nature" class="w-100 rounded">
+                    <div class="text-block sky">
+                        <h4>Drawing Room</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 row-room view-allroom column-modal">
+                    <img src="assets/images/designer-profile/blue-sofa.png" alt="Avatar" class=""
+                        class="w-100 hover-shadow cursor" onclick="openModal();currentSlide(1)">
+                    <div class="middle text-white">
+                        <h5 class="text text-white">View More</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="rennovation mt-5">
+        <div class="container">
+            <div class="text-center">
+                <h5>Want to find designers for your renovation?</h5>
+                <div class="mt-3">
+                    <button type="button" class="btn me-2 green text-light">See designer listings</button>
+                    <button type="button" class="btn me-2 green-recon ">Let iDesign recommend designers</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider-project mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="b-sofa">
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/designer-profile/brown-sofa.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><b>Project Name</b></h5>
+                                    <p class="card-text">Building Name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/designer-profile/brown-sofa.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><b>Project Name</b></h5>
+                                    <p class="card-text">Building Name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/designer-profile/brown-sofa.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><b>Project Name</b></h5>
+                                    <p class="card-text">Building Name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/designer-profile/brown-sofa.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><b>Project Name</b></h5>
+                                    <p class="card-text">Building Name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/designer-profile/brown-sofa.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><b>Project Name</b></h5>
+                                    <p class="card-text">Building Name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/designer-profile/brown-sofa.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><b>Project Name</b></h5>
+                                    <p class="card-text">Building Name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        $('.b-sofa').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            prevArrow: false,
+            nextArrow: false,
+            slidesToShow: 3,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+</body>
+
+</html>

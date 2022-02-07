@@ -1,0 +1,46 @@
+.search-icon {
+  width: 50%;
+}
+
+.explore-filter span {
+  box-sizing: border-box;
+  border-radius: 4.04165px;
+  padding: 6px 31px;
+  font-size: 12px;
+  line-height: 40px;
+}
+
+.get-started {
+  border: 2px solid #2cbf81;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.get-started {
+  text-align: center;
+}
+
+.get-started p {
+  margin: auto;
+  text-align: center;
+}
+
+.get-started p:first-child {
+  width: 40%;
+}
+
+.get-started p:last-child { 
+  width: 65%;
+}
+
+.start {
+  height: 51px;
+  width: 233px;
+  border-radius: 3px;
+  padding: 8px, 12px, 8px, 12px;
+  background: #2cbf81;
+}
+
+.get-started-green{
+  background: linear-gradient(74.77deg, #00E576 0.36%, #09BA64 0.37%, #18D87B 0.38%, #119D59 104.1%);
+}
